@@ -1,0 +1,35 @@
+{
+    "name": "webpack-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack-dev-server",
+        "build:prod": "webpack -p"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/9terz/webpack-playground.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/9terz/webpack-playground/issues"
+    },
+    "homepage": "https://github.com/9terz/webpack-playground#readme",
+    "devDependencies": {
+        "@babel/core": "^7.1.6",
+        "@babel/preset-env": "^7.1.6",
+        "babel-loader": "^8.0.4",
+        "webpack": "^4.26.0",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "create-react-app": "^2.1.1",
+        "css-loader": "^1.0.1",
+        "moment": "^2.22.2",
+        "style-loader": "^0.23.1",
+        "webpack-dev-server": "^3.1.10"
+    }
+}

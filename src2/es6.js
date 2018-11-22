@@ -1,0 +1,1 @@
+secretButton.text(`WISESIGHT`);
